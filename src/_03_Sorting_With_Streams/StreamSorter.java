@@ -13,9 +13,8 @@ public class StreamSorter {
 		}
 		
 		//1. Convert the Integer array to Stream object.
-		
+		Arrays.asList(nums).stream().sorted().forEach(i -> System.out.print(i + ", "));
 		//2. Use the sorted method of the stream to sort the numbers.
-		
 		//3. Use the forEach method with a lambda to print all the elements of the sorted Stream.
 		//   They should be in ascending order.
 	}
